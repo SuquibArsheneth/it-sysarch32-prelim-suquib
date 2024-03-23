@@ -1,0 +1,164 @@
+.pokemon-list {
+ 
+  flex-wrap: wrap; 
+}
+
+/* Placeholder styles for the Pokemon component */
+.pokemon-container {
+  display: flex; 
+  height: 330px; /* Adjust height as needed */
+  width: 280px; /* Adjust width as needed */
+  
+  border-radius: 10px;
+  padding: 0px;
+  margin: 30px;
+  margin-top: 90px;
+  margin-bottom: -30px;
+}
+
+
+
+.pokemon-container .pokemon-image {
+  width: 100px; /* Adjust image width as needed */
+  height: 100px; 
+  margin-left: 5px;/* Adjust image height as needed */
+}
+
+.pokemon-container .pokemon-info {
+  text-align: center;
+}
+
+.pokemon-container .pokemon-info h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-top: 5px;
+}
+
+.pokemon-container .pokemon-info p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  
+}
+
+.pokemon-container .pokemon-info p1 {
+  font-size: 18px;
+   margin-bottom: -8px; 
+  word-spacing: 20px;
+ 
+  font-style: italic;
+  font-weight: bold;
+  background-color: rgb(240, 114, 175);
+  
+}
+
+.base-stats {
+  margin-top: 10px;
+  word-spacing: 15px;
+}
+
+.pokemon-base-stat {
+  margin-bottom: 3px;
+}
+
+
+  
+body, html {
+  height: 100%;
+  margin: 40;
+  background-color: rgb(236, 247, 246);
+ 
+}
+
+.content {
+  flex: 1; 
+  margin-left: -450px;
+}
+
+
+
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 380px;
+ 
+  margin-bottom: 10px;
+  
+
+}
+
+.language-buttons {
+  margin-bottom: 20px;
+  margin-left: 200px;
+  margin-right: -350px;
+}
+
+.language-buttons button {
+  margin-right: 10px; 
+  background-color: #bbc1f3; 
+  border: none;
+  
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.language-buttons button:hover {
+  background-color: #f6b3da;
+}
+
+.pokemon {
+  margin: 80px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e4f0a4;
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  margin-left: 10px;
+ 
+}
+
+.pokemon img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 10px;
+} 
+
+
+.base-stats {
+  margin-top: 30px;
+}
+
+
+.pagination {
+  margin-top: -1500px;
+  margin-left: 150px;
+}
+
+.pagination button {
+  margin-right: 10px;
+  margin-left: -5px;
+  background-color: #f6b3da;
+  padding: 10px;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+
+
+
+
+
+
